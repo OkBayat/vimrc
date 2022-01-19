@@ -4,6 +4,7 @@
 
 " ------------------------------------------------------------------ "
 " BASIC SETUP:
+set number
 set nocompatible
 
 " Enable syntax and plugins (for netrw)
