@@ -5,6 +5,7 @@
 " ------------------------------------------------------------------ "
 " BASIC SETUP:
 set number
+set shiftwidth=4
 set nocompatible
 
 " Enable syntax and plugins (for netrw)
