@@ -40,6 +40,10 @@ set wildmenu
 " to more info see the following link
 " https://kulkarniamit.github.io/whatwhyhow/howto/use-vim-ctags.html
 
+" - Use ^] to jump to tag under cursor
+" - Use g^] for ambiguous tags
+" - Use ^t to jump back up the tag stack
+
 
 " ------------------------------------------------------------------ "
 " AUTOCOMPLETE:
