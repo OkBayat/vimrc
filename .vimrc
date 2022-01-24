@@ -30,6 +30,7 @@ set wildignore+=**/dist/**
 " - Hit tab to :find by partial match
 " - Use * to make it fuzzy
 " - :b lets you autocomplete any open buffer
+" - :ls displays opened files in buffer
 set wildmenu
 
 
