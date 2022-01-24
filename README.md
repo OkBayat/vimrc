@@ -1,4 +1,4 @@
 # vimrc
-import .vimrc file to ~/.vimrc same as (```source ~/vimrc/.vimrc```)
+The **.vimrc** file should be imported into the **/.vimrc** same as ```source ~/vimrc/.vimrc```
 
-run ```chmod +x bashscript.sh``` then run ```./bashscript.sh```
+You can copy **.ctags** and **darcula.vim** to their own folders by running ```chmod +x bashscript.sh``` and ```./bashscript.sh```.
