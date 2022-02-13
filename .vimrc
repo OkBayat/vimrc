@@ -68,3 +68,18 @@ if has("win32unix")
     let &t_EI.="\e[1 q"
     let &t_te.="\e[0 q"
 endif
+
+
+" ------------------------------------------------------------------ "
+" SHORT KEYS:
+" - A+j Moves current line/bloc down
+" - A-k Moves current line/bloc up
+
+execute "set <A-j>=\ej"
+execute "set <A-k>=\ek"
+:nnoremap <A-j> :m+ <CR>==
+:nnoremap <A-k> :m-2<CR>==
+:inoremap <A-j> <Esc>:m+ <CR>==gi
+:inoremap <A-k> <Esc>:m-2<CR>==gi
+:vnoremap <A-j> :m '>+1<CR>gv=gv
+:vnoremap <A-k> :m '<-2<CR>gv=gv
