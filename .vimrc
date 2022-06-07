@@ -75,11 +75,16 @@ endif
 " - A+j Moves current line/bloc down
 " - A-k Moves current line/bloc up
 
-execute "set <A-j>=\ej"
-execute "set <A-k>=\ek"
-:nnoremap <A-j> :m+ <CR>==
-:nnoremap <A-k> :m-2<CR>==
-:inoremap <A-j> <Esc>:m+ <CR>==gi
-:inoremap <A-k> <Esc>:m-2<CR>==gi
-:vnoremap <A-j> :m '>+1<CR>gv=gv
-:vnoremap <A-k> :m '<-2<CR>gv=gv
+" execute "set <A-j>=\ej"
+" execute "set <A-k>=\ek"
+" :nnoremap <A-j> :m+ <CR>==
+" :nnoremap <A-k> :m-2<CR>==
+" :inoremap <A-j> <Esc>:m+ <CR>==gi
+" :inoremap <A-k> <Esc>:m-2<CR>==gi
+" :vnoremap <A-j> :m '>+1<CR>gv=gv
+" :vnoremap <A-k> :m '<-2<CR>gv=gv
+
+
+" ------------------------------------------------------------------ "
+" FOLDING:
+set foldmethod=syntax
