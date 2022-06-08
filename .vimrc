@@ -86,5 +86,6 @@ endif
 
 
 " ------------------------------------------------------------------ "
-" FOLDING:
+" OTHERS:
 set foldmethod=syntax
+set hlsearch
