@@ -88,4 +88,5 @@ endif
 " ------------------------------------------------------------------ "
 " OTHERS:
 set foldmethod=syntax
+set fillchars=fold:\ 
 set hlsearch
