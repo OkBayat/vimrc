@@ -1,4 +1,5 @@
 " SETUP GUID:
+" https://www.youtube.com/watch?v=wlR5gYd6um0&t=486s
 " https://www.youtube.com/watch?v=XA2WjJbmmoM
 
 
