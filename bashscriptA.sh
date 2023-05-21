@@ -32,5 +32,5 @@ echo ""
 echo "--------------------------------------------------"
 echo ">>> Installing oh-my-zsh"
 echo "--------------------------------------------------"
-sh oh-my-zsh.sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "DONE"
