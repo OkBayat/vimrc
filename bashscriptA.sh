@@ -4,6 +4,7 @@ echo ""
 echo "--------------------------------------------------"
 echo ">>> Setting vim color them"
 echo "--------------------------------------------------"
+mkdir ~/.vim
 mkdir ~/.vim/colors
 cp darcula.vim ~/.vim/colors/
 echo "DONE"
@@ -21,16 +22,4 @@ echo ""
 echo "--------------------------------------------------"
 echo ">>> Installing zsh"
 echo "--------------------------------------------------"
-apt-get update
-apt-get install zsh
-zsh --version
-# Making ZSH the Default Shell
-usermod -s /usr/bin/zsh $(whoami)
-echo "DONE"
-
-echo ""
-echo "--------------------------------------------------"
-echo ">>> Installing oh-my-zsh"
-echo "--------------------------------------------------"
-echo "Please run following command and then \"source .zshrc\" run ./bashscriptB.sh"
-echo "sh -c \"\$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\""
+echo "Go to this web page and install it: https://linuxhint.com/install_zsh_shell_ubuntu_1804/"
